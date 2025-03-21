@@ -131,6 +131,12 @@ header .search-bar-container {
  background-position: center;
  
 }
+.banner-f{ 
+  background-image: url('/images/rrt-rajasthan.png');
+ background-size: cover;
+ background-position: center;
+ 
+}
 
 .banner-sr{ 
   background-image: url('/images/rrt-special.jpg');
@@ -599,13 +605,14 @@ header .search-bar-container label:hover {
 }
 
 .footer .box-container{
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  gap:1.5rem;
+  gap:1rem;
 }
 
 .footer .box-container .box{
-  padding:1rem 0;
+  padding:0.5rem 0;
   flex:1 1 25rem;
 }
 
@@ -646,12 +653,6 @@ header .search-bar-container label:hover {
 .footer .credit span{
   color:var(--orange);
 }
-
-
-
-
-
-
 
 
 /* media queries */

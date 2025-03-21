@@ -11,14 +11,14 @@ const Pakages = () => {
     },
     {
       id: 2,
-      img: "/images/jodhpur/img1.jpeg",
+      img: "/images/jodhpur/img3.jpeg",
       name: "5 Days Tour Package II",
       desc: "Ajmer, Pushkar, Jodhpur, Jaisalmer, Udaipur, Jaipur",
      
     },
     {
       id: 3,
-      img: "/images/Chittorgarh/img2.jpeg",
+      img: "/images/Chittorgarh/img4.jpeg",
       name: "7 Days Tour Package",
       desc: "Ajmer, Pushkar, Jodhpur, Jaisalmer, Udaipur, Mount Abu, Chittorgarh, Jaipur",
      
@@ -38,7 +38,7 @@ const Pakages = () => {
     },
     {
       id: 6,
-      img: "/images/Nahargarh_Fort/img1.jpeg",
+      img: "/images/Nahargarh_Fort/img2.jpeg",
       name: "2 Days Tour Jaipur II (Special)",
       desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
     },

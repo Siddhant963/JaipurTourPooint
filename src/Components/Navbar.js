@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white shadow-md w-full">
+    <header className="shadow-md w-full">
       <div className="mx-auto flex items-center justify-between p-4 w-screen text-3xl">
         {/* Menu Bar (Mobile) */}
         <div
@@ -65,41 +65,40 @@ const Navbar = () => {
               Packages
             </a>
             {isPackagesOpen && (
-              <div className="absolute left-0 mt-2 text-sm md:text-2xl py-2 md:py-4 text-center font-bold w-[200px] md:w-[250px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+              <div className="absolute right-0 mt-2 text-sm md:text-2xl py-2 md:py-4 text-center font-bold w-[200px] md:w-[250px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50 h-[140px] overflow-y-auto">
                 <a
                   href="/packages/1"
-                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
                 >
                   5 Days Package
                 </a>
-
                 <a
                   href="/packages/2"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
                 >
                   5 Days Package 2
                 </a>
                 <a
                   href="/packages/3"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
                 >
                   7 Days Package
                 </a>
                 <a
                   href="/packages/4"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
                 >
                   9 Days Package
                 </a>
                 <a
                   href="/packages/5"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
                 >
                   2 Days Jaipur Special 1
                 </a>
                 <a
                   href="/packages/6"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
                 >
                   2 Days Jaipur Special 2
                 </a>
@@ -120,22 +119,22 @@ const Navbar = () => {
               Services
             </a>
             {isServicesOpen && (
-              <div className="absolute left-0 mt-2 text-sm md:text-base text-center font-bold w-[120px] md:w-[150px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+              <div className="absolute right-0 mt-2 text-2xl md:text-base text-center font-bold w-[150px] md:w-[180px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50 h-[100px] overflow-y-auto">
                 <a
                   href="/fecilitys/bus"
-                  className="block px-3 py-2 hover:bg-gray-400 font-bold"
+                  className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
                   Bus Service
                 </a>
                 <a
                   href="/fecilitys/cars"
-                  className="block px-3 py-2 hover:bg-gray-400 font-bold"
+                  className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
                   Cab Service
                 </a>
                 <a
                   href="/hotel-service"
-                  className="block px-3 py-2 hover:bg-gray-400 font-bold"
+                  className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
                   Hotel Service
                 </a>
@@ -157,13 +156,13 @@ const Navbar = () => {
           </a>
           <a
             href="/about"
-            className="block mt-4 md:mt-0 text-white hover:text-yellow-500 font-bold">
-              About Us
-            </a>
+            className="block mt-4 md:mt-0 text-white hover:text-yellow-500 font-bold"
+          >
+            About Us
+          </a>
         </nav>
 
         {/* Icons */}
-        
       </div>
     </header>
   );

@@ -54,17 +54,17 @@
           {   "id":1,
              "name":"normal hotels",
                "capacity":100,
-               "img":""  
+               "img":"/images/hotel1.jpeg"  
           },
           {   "id":2,
              "name":"2 star hotel",
                "capacity":100,
-               "img":""  
+               "img":"/images/hotel2.jpeg"  
           },
           {   "id":3,
              "name":"3 star hotel",
                "capacity":100,
-               "img":""  
+               "img":"/images/hotel3.jpeg"  
           }
 
      ]

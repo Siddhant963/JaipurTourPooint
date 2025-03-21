@@ -37,7 +37,7 @@ export default function WhyChooseAndFAQ() {
 
           {/* FAQs */}
           <div className="border rounded-md p-4 shadow-sm">
-            <h2 className="fs-2 text-decoration-underline fs-bold mb-4">FAQ’s on Wedding Car Rental</h2>
+            <h2 className="fs-2 text-decoration-underline fs-bold mb-4">FAQ’s on  Car and Bus Rental</h2>
             <div className="space-y-4 text-gray-700">
               <div >
                 <p className="font-semibold fs-4">Q1: How much I will be charged to hire a car on rent in Jaipur?</p>
