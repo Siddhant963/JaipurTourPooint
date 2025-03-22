@@ -133,7 +133,7 @@ const Navbar = () => {
                   Cab Service
                 </a>
                 <a
-                  href="/hotel-service"
+                  href="/fecilitys/hotel"
                   className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
                   Hotel Service
