@@ -18,7 +18,7 @@ const Booknow = () => {
 
   <div className="row">
     <div className="image">
-      <img src="/images/jaipur/img3.jpeg" alt=""/>
+      <img src="/images/jaipur/img3.jpg" alt=""/>
     </div>
     <form action="">
       <div className="inputBox">

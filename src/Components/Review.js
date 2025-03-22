@@ -8,13 +8,13 @@ const Review = () => {
     {
       id: 1,
       name: 'Aman singh',
-      img: "https://media.licdn.com/dms/image/v2/D4D03AQGRgEDiiXcjnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713425512533?e=2147483647&v=beta&t=AIIHA4lI6icfY_BZjrerA1Wum8Nte9-XGS92Jx94gF0",
+      img: "images/aman.jpeg",
       review: 'The service exceeded my expectations from beginning to end. The team was attentive, skilled, and courteous. I’m extremely pleased with the outcome and would gladly suggest their services to friends and colleagues.',
     },
     {
       id: 2,
       name: 'Siddhant dubey',
-      img: "https://media.licdn.com/dms/image/v2/D4D03AQGunW_a3gaa4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727541672155?e=2147483647&v=beta&t=lQpWVvgREzQWQk7x1Wobzbs1Xkn_K1iaxN-jNWTUG2E",
+      img: "images/siddhant.jpeg",
       review: 'The experience was truly amazing from start to end. Everyone was helpful and professional. I am very satisfied with the quality provided. Would definitely recommend to others without hesitation or doubt.',
     },
     {

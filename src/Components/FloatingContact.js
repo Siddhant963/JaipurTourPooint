@@ -17,11 +17,11 @@ const FloatingContact = () => {
             <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg
 " alt="WhatsApp" width={30} height={30} />
           </Link>
-          <Link href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank" className="social-icon instagram">
+          <Link href="#" target="_blank" className="social-icon instagram">
             <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg
 " alt="Instagram" width={30} height={30} />
           </Link>
-          <Link href="https://www.facebook.com/YOUR_FACEBOOK" target="_blank" className="social-icon facebook">
+          <Link href="#" target="_blank" className="social-icon facebook">
             <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width={30} height={30} />
           </Link>
         </div>

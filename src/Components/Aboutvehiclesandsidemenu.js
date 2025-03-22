@@ -2,7 +2,7 @@ export default function Aboutvehiclesandsidemenu() {
   const besttourdata =[
     {
       id:1,
-      img:"/images/Pushkar/img3.jpeg" ,
+      img:"/images/Pushkar/img3.jpg" ,
       name:"5 Days Tour package",
       Link: '/packages/1',
       desc: "Jaipur , Ajmer , Pushkar , Chittorgarh ,Udaipur , Mount Abu "
@@ -10,28 +10,28 @@ export default function Aboutvehiclesandsidemenu() {
     },
     {
       id:2,
-      img:"/images/jodhpur/img1.jpeg" ,
+      img:"/images/jodhpur/img1.jpg" ,
       name:"5 Days Tour package II",
       Link: '/packages/2',
       desc: "Ajmer , Pushkar, Jodhpur, Jaisalmer, Udaipur, Jaipur "
 
     },
     {    id:3,
-         img:"/images/Chittorgarh/img2.jpeg" ,
+         img:"/images/Chittorgarh/img2.jpg" ,
          name:"7 Days Tour package",
          Link: '/packages/3',
          desc: "Ajmer, Pushkar, jodhpur, Jaisalmer, Udaipur, Mount abu, Chittorgarh , jaipur "
     },
     {
          id:4,
-         img:"/images/Ranthambore/img2.jpeg" ,
+         img:"/images/Ranthambore/img2.jpg" ,
          name:"9 Days Tour package",
          Link: '/packages/4',
          desc: "jaipur, Bikaner, jodhpur, jaisalmer, Udaipur, Mount abu, Chittorgarh, Ajmer ,Pushkar, Ranthambore "  
        },
        {
          id:5,
-         img:"/images/hawa_mehel/img1.jpeg" ,
+         img:"/images/hawa_mehel/img1.jpg" ,
          name:"2 Days Tour jaipur I (spaical)",
          Link: '/packages/5',
          desc: "jaipur, birla mandir , Albert Hall Museum,Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal ,Jal Mahal"
@@ -39,7 +39,7 @@ export default function Aboutvehiclesandsidemenu() {
        },
        {
          id:6,
-         img:"/images/Nahargarh_Fort/img1.jpeg" ,
+         img:"/images/Nahargarh_Fort/img1.jpg" ,
          name:"2 Days Tour jaipur II (spaical)",
          Link: '/packages/6',
          desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort , Panna Meena Ka Kund, Chulgiri ,Gulab Bagh"

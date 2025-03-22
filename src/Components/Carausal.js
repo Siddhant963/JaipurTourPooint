@@ -33,7 +33,7 @@ const Carausal = () => {
         </div>
 
         <div className="video-container">
-          <video src={activeVideo} id="video-slider"  autoPlay muted />
+          <video src={activeVideo} id="video-slider"  autoPlay  />
         </div>
       </section>
 

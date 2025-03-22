@@ -4,41 +4,41 @@ const Pakages = () => {
   const pakedata = [
     {
       id: 1,
-      img: "/images/Pushkar/img3.jpeg",
+      img: "/images/Pushkar/img3.jpg",
       name: "5 Days Tour Package",
       desc: "Jaipur, Ajmer, Pushkar, Chittorgarh, Udaipur, Mount Abu",
      
     },
     {
       id: 2,
-      img: "/images/jodhpur/img3.jpeg",
+      img: "/images/jodhpur/img3.jpg",
       name: "5 Days Tour Package II",
       desc: "Ajmer, Pushkar, Jodhpur, Jaisalmer, Udaipur, Jaipur",
      
     },
     {
       id: 3,
-      img: "/images/Chittorgarh/img4.jpeg",
+      img: "/images/Chittorgarh/img4.jpg",
       name: "7 Days Tour Package",
       desc: "Ajmer, Pushkar, Jodhpur, Jaisalmer, Udaipur, Mount Abu, Chittorgarh, Jaipur",
      
     },
     {
       id: 4,
-      img: "/images/Ranthambore/img2.jpeg",
+      img: "/images/Ranthambore/img2.jpg",
       name: "9 Days Tour Package",
       desc: "Jaipur, Bikaner, Jodhpur, Jaisalmer, Udaipur, Mount Abu, Chittorgarh, Ajmer, Pushkar, Ranthambore",
      
     },
     {
       id: 5,
-      img: "/images/hawa_mehel/img1.jpeg",
+      img: "/images/hawa_mehel/img1.jpg",
       name: "2 Days Tour Jaipur I (Special)",
       desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal",
     },
     {
       id: 6,
-      img: "/images/Nahargarh_Fort/img2.jpeg",
+      img: "/images/Nahargarh_Fort/img2.jpg",
       name: "2 Days Tour Jaipur II (Special)",
       desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
     },
@@ -52,10 +52,10 @@ const Pakages = () => {
   Packages Available
 </h2>
     </div>
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-8 ">
         {pakedata.map((data) => (
           <div key={data.id} className="relative bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src={data.img} alt={data.name} className="w-full h-72 object-cover" />
+            <img src={data.img} alt={data.name} className="w-full h-136 object-cover " />
             <div className="absolute top-2 left-2 bg-green-600 text-white  text-lg font-bold px-2 py-1 rounded">₹90 OFF</div>
             <div style={{backgroundColor: 'rgba(45, 45, 49, 0.37)', padding:'10px'}} className="absolute  bottom-0 left-0 w-full bg-gradient-to-t text-center  from-black/80 to-transparent p-4 text-white">
               <h3 className="text-2xl  font-bold" >{data.name}</h3>

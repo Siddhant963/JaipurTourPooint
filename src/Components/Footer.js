@@ -31,13 +31,13 @@ const Footer = () => {
   </div> */}
   <div className="box">
     <h3>quick links</h3>
-    <a href="#">home</a>
+    <a href="/">home</a>
     {/* <a href="#">book</a> */}
-    <a href="#">packages</a>
-    <a href="#">services</a>
-    <a href="#">gallery</a>
-    <a href="#">review</a>
-    <a href="#">contact</a>
+    <a href="/packages">packages</a>
+    <a href="/fecilitys">services</a>
+    <a href="/gallery">gallery</a>
+    <a href="/contact">review</a>
+    <a href="/about">contact</a>
   </div>
   <div className="box">
     <h3>follow us</h3>

@@ -43,7 +43,7 @@ const AboutSection = () => {
           {/* Image Section */}
           <div className="w-full md:w-120 lg:w-120 flex justify-center">
             <Image
-              src="/images/image.png" // Ensure the image is in the public folder
+              src="/images/profiepic.jpg" // Ensure the image is in the public folder
               alt="rohit mishra"
               width={600}
               height={600}

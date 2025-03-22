@@ -78,11 +78,11 @@ const PackagePlacesCarousel = ({ packageData }) => {
                 <p className="text-gray-900 mb-6 text-lg text-center">{place.description}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                   {place.images.map((image, index) => (
-                    <div key={index} className="rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300">
+                    <div key={index} className="rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300">
                       <img
                         src={image}
                         alt={`image ${index + 1}`}
-                        className="w-full h-64 object-cover"
+                        className="w-full h-128 object-cover"
                       />
                     </div>
                   ))}

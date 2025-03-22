@@ -47,7 +47,7 @@ const Brand = () => {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTfStgOAp0WQPG-el_UXq1ehxQK_OIThQkwQ&s" alt="Brand 5" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/sticker/b/f/x/medium-padharo-sa-rajasthani-welcome-wall-sticker-for-home-d-cor-original-imah4yh2d4hu9va2.jpeg?q=20&crop=false" alt="Brand 6" />
+          <img src="https://imgs.search.brave.com/lmbPnUSfvFU837u2ETV7MzQVGgCxa0GBz-asXBWtKLI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQz/OTE3NzE2L3Bob3Rv/L3RyYWRpdGlvbmFs/LWZvbGstZGFuY2Vy/cy1pbi1pbmRpYS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/VllJUjZtUGh3ODVy/TThBbExGUjdmUkth/dnZGeEZOa0tuVmxq/cm82YXgzND0" alt="Brand 6" />
         </SwiperSlide>
       </Swiper>
     </section>
