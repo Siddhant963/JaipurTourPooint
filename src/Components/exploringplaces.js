@@ -125,12 +125,12 @@ const tourPackages = [
 
 export default function VehiclesTourPackages() {
   return (
-    <section className={`${poppins.className} vehicles-section bg-light py-5`}>
-      <div className="min-h-screen bg-gray-50 text-gray-800 px-4 md:px-8" style={{padding:"15px"}}>
+    <section className={`${poppins.className} vehicles-section bg-light py-5 explore`}>
+      <div className="min-h-screen explore text-gray-800 px-4 md:px-8" style={{padding:"15px"}}>
       <div className=" pt-8 pb-4">
       <div className='bg-white-100 p-4 mb-4'>
 
-        <h2 className="text-4xl text-center font-bold mb-5 text-blue-900  border-yellow-400 mb-6 " style={{fontSize:"3rem",padding:"10px"}}>
+        <h2 className="text-4xl text-center font-bold mb-5 text-white  border-yellow-400 mb-6 " style={{fontSize:"4rem",padding:"10px"}}>
        Ghoomar Jaipur
         </h2>
         </div>        

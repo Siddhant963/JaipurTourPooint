@@ -466,6 +466,11 @@ header .search-bar-container label:hover {
 .services .box-container .box:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
+.gallery{
+  background-image: url('../../public/images/im1.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .gallery .box-container{
   display: flex;
@@ -599,9 +604,14 @@ header .search-bar-container label:hover {
 .brand-container{
   text-align: center;
 }
+.explore{
+  
+  background-image: url('../../public/images/footer_img.jpg');
+
+}
 
 .footer{
-  background:#333;
+  background-image: url('../../public/images/footer_img.jpg');
 }
 
 .footer .box-container{

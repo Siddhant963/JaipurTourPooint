@@ -19,19 +19,19 @@ const Review = () => {
     },
     {
       id: 3,
-      name: 'Rahul Mehta',
-      img: "images/pic2.png",
+      name: 'Sapeksh Vishwakarma ',
+      img: "images/sapekshimgg.jpg",
       review: 'A great journey filled with support and care. The service exceeded all expectations, and everything was completed on time. I appreciate the efforts and dedication shown throughout. Excellent work overall, very impressed.',
     },
     {
       id: 4,
-      name: 'Sofia Martinez',
+      name: 'Annpurna Sharma ',
       img: "images/pic3.png",
       review: 'Professionalism at its best! The team delivered everything on point. Communication was clear, and assistance was available anytime. I felt valued as a customer. Truly a delightful experience worth every bit of time.',
     },
     {
       id: 5,
-      name: 'Liam Johnson',
+      name: 'Srajal vishwakarma',
       img: "images/pic4.png",
       review: 'Wonderful service and prompt delivery. The staff ensured that I was updated regularly. Everything was smooth, efficient, and stress-free. I am happy with the outcome. Highly recommend them for great results.',
     }

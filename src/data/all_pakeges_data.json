@@ -11,8 +11,7 @@
           "images": [
             "/images/jaipur/img1.jpg",
             "/images/jaipur/img2.jpg",
-            "/images/jaipur/img3.jpg",
-            "/images/jaipur/img4.jpg"
+            "/images/jaipur/img3.jpg"
           ]
         },
         {
@@ -137,8 +136,7 @@
           "images": [
             "/images/jaipur/img1.jpg",
             "/images/jaipur/img2.jpg",
-            "/images/jaipur/img3.jpg",
-            "/images/jaipur/img4.jpg"
+            "/images/jaipur/img3.jpg"
           ]
         }
       ]
@@ -231,8 +229,7 @@
           "images": [
             "/images/jaipur/img1.jpg",
             "/images/jaipur/img2.jpg",
-            "/images/jaipur/img3.jpg",
-            "/images/jaipur/img4.jpg"
+            "/images/jaipur/img3.jpg"
           ]
         }
       ]
@@ -248,8 +245,7 @@
           "images": [
             "/images/jaipur/img1.jpg",
             "/images/jaipur/img2.jpg",
-            "/images/jaipur/img3.jpg",
-            "/images/jaipur/img4.jpg"
+            "/images/jaipur/img3.jpg"
           ]
         },
         {
@@ -364,8 +360,7 @@
           "images": [
             "/images/jaipur/img1.jpg",
             "/images/jaipur/img2.jpg",
-            "/images/jaipur/img3.jpg",
-            "/images/jaipur/img4.jpg"
+            "/images/jaipur/img3.jpg"
           ]
         },
         {
@@ -374,9 +369,9 @@
           "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
           "images": [
             "/images/birla_mandir/img1.jpg",
-            "/images/birla_mandir/img2.jpg",
-            "/images/birla_mandir/img3.jpg",
-            "/images/birla_mandir/img4.jpg"
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          
           ]
         },
         {
@@ -417,10 +412,10 @@
           "title": "City Palace",
           "description": "City Palace, located in the heart of Jaipur, was built by Maharaja Sawai Jai Singh II in the 18th century. It is a blend of Mughal and Rajput architecture and houses museums, courtyards, gardens, and royal artifacts. The palace is still home to the Jaipur royal family and showcases Rajasthan's glorious past.",
           "images": [
-            "/images/city_place/img1.jpg",
-            "/images/city_place/img2.jpg",
-            "/images/city_place/img3.jpg",
-            "/images/city_place/img4.jpg"
+            "/images/city_place/img1.jpeg",
+            "/images/city_place/img2.jpeg",
+            "/images/city_place/img3.jpeg"
+      
           ]
         },
         {
@@ -428,10 +423,9 @@
           "title": "Khazana Mahal",
           "description": "Khazana Mahal is a hidden gem in Jaipur, known for its exquisite collection of royal treasures, antiques, and artifacts. It showcases rare gems, weapons, and textiles from the Rajput era. This museum offers a unique glimpse into Rajasthan’s rich history and heritage.",
           "images": [
-            "/images/Khazana_Mahal/img1.jpg",
-            "/images/Khazana_Mahal/img2.jpg",
-            "/images/Khazana_Mahal/img3.jpg",
-            "/images/Khazana_Mahal/img4.jpg"
+            "/images/Khazana_Mahal/img1.jpeg",
+            "/images/Khazana_Mahal/img2.jpeg",
+            "/images/Khazana_Mahal/img3.jpeg"
           ]
         },
         {
@@ -497,19 +491,19 @@
         },
         {
           "id": 5,
-          "title": "Chulgiri",
-          "description": "Chulgiri Jain Temple is a sacred pilgrimage site located atop a hill in Jaipur. Built in the 1950s, this Digambara Jain temple is dedicated to Lord Parshvanath. It offers breathtaking views of the Aravalli ranges and provides a peaceful retreat for visitors. The temple is also known for its grand white marble idol of Lord Parshvanath.",
+          "title": "Chokhi Dhani - Additional ",
+          "description": "Chokhi Dhani is a well-known ethnic village resort in Jaipur, Rajasthan, founded in 1990 by Gul Vaswani and Subhash Vaswani. It was created to preserve and promote Rajasthani heritage through folk dances, puppet shows, camel rides, traditional food, and live performances. The resort offers an immersive experience of Rajasthani village life, making it a must-visit destination for travelers looking to explore the culture and traditions of Rajasthan.",
           "images": [
             "/images/Chulgiri/img1.jpg",
-            "/images/Chulgiri/img2.jpg",
-            "/images/Chulgiri/img3.jpg",
-            "/images/Chulgiri/img4.jpg"
+            "/images/Chulgiri/img2.jpeg",
+            "/images/Chulgiri/img3.jpeg",
+            "/images/Chulgiri/img4.jpeg"
           ]
         },
         {
           "id": 6,
-          "title": "Gulab Bagh",
-          "description": "Gulab Bagh, also known as Sajjan Niwas Garden, is the largest garden in Udaipur, built by Maharana Sajjan Singh in the 19th century. This beautiful garden is known for its lush greenery, variety of roses, and the Victoria Hall Museum. It also houses a library with ancient manuscripts and a zoo, making it a must-visit attraction for nature lovers.",
+          "title": "Gulab Garh - Additional ",
+          "description": "Gulab Garh is a historical and cultural site known for its heritage significance and architectural beauty. It is often associated with royal Rajasthani culture and serves as a gateway to understanding the traditions of the region. The place is famous for its intricate designs, traditional ambiance, and cultural performances that attract tourists looking for an authentic experience.",
           "images": [
 
             "/images/Gulab_bagh/img1.jpg",

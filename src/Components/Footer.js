@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-     <section className="footer">
+     <section className="footer ">
 
 <div className="box-container ">
 
@@ -39,7 +39,7 @@ const Footer = () => {
     <a href="/contact">review</a>
     <a href="/about">contact</a>
   </div>
-  <div className="box">
+  <div className="box font-bold">
     <h3>follow us</h3>
     <a href="#">facebook</a>
     <a href="#">instagram</a>
@@ -58,7 +58,7 @@ const Footer = () => {
   
 </div>
 <hr/>
-<h1 className="mt-10 text-center text-3xl text-gray-400">
+<h1 className="mt-10 text-center text-3xl text-gray-900">
             © {new Date().getFullYear()} JaipurTourPoint | All Rights Reserved.
           </h1>
           </section> 

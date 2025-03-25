@@ -67,6 +67,18 @@ const Navbar = () => {
             {isPackagesOpen && (
               <div className="absolute right-0 mt-2 text-sm md:text-2xl py-2 md:py-4 text-center font-bold w-[200px] md:w-[250px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50 h-[140px] overflow-y-auto">
                 <a
+                  href="/packages/5"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
+                >
+                  2 Days Jaipur Special 1
+                </a>
+                <a
+                  href="/packages/6"
+                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
+                >
+                  2 Days Jaipur Special 2
+                </a>
+                <a
                   href="/packages/1"
                   className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
                 >
@@ -90,18 +102,6 @@ const Navbar = () => {
                 >
                   9 Days Package
                 </a>
-                <a
-                  href="/packages/5"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
-                >
-                  2 Days Jaipur Special 1
-                </a>
-                <a
-                  href="/packages/6"
-                  className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"
-                >
-                  2 Days Jaipur Special 2
-                </a>
               </div>
             )}
           </div>
@@ -121,12 +121,6 @@ const Navbar = () => {
             {isServicesOpen && (
               <div className="absolute right-0 mt-2 text-2xl md:text-base text-center font-bold w-[150px] md:w-[180px] max-w-screen bg-white border border-gray-200 rounded-lg shadow-lg z-50 h-[100px] overflow-y-auto">
                 <a
-                  href="/fecilitys/bus"
-                  className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
-                >
-                  Bus Service
-                </a>
-                <a
                   href="/fecilitys/cars"
                   className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
@@ -137,6 +131,12 @@ const Navbar = () => {
                   className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
                 >
                   Hotel Service
+                </a>
+                <a
+                  href="/fecilitys/bus"
+                  className="block px-4 py-4 text-2xl hover:bg-gray-400 font-bold"
+                >
+                  Bus Service
                 </a>
               </div>
             )}

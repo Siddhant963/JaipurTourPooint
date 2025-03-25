@@ -1,30 +1,31 @@
 import React from 'react'
 
 const Services = () => {
-     const servicesdata = [{
-          id: 1,
-          imgg:"https://4.imimg.com/data4/QM/EM/ANDROID-60284273/product-500x500.jpeg",
-          iclass:"fas fa-hotel",
-          title: "Bus services",
-          description: "Comfortable and budget-friendly bus service for city tours and outstation travel from Jaipur, ensuring timely and safe journeys.",
-          link: "fecilitys/bus"
-     },
+     const servicesdata = [
      {
-          id: 2,
-          imgg:"https://www.vedantawakeup.com/wp-content/uploads/2022/04/rajputana-cabs-banner.jpg",
+          id: 1,
+          imgg:"/images/car_service.jpg",
           iclass:"fas fa-utensils",
           title: "Cab Service",
           description: "Private car rentals with professional drivers for personalized city tours, airport transfers, and outstation trips from Jaipur.",
           link: "fecilitys/cars"
      },
      {
-          id: 3,
-          imgg:"https://www.fairmont.com/assets/0/104/231/402/404/412/f0016b01-9418-4a16-97ee-937bb05f9210.jpg",
+          id: 2,
+          imgg:"/images/hotel_service.jpg",
           iclass:"fas fa-bullhorn",
           title: "Hotel Booking",
           description: "Book top-rated hotels in Jaipur and across Rajasthan at the best prices, with comfortable stays and excellent amenities.",
           link: "fecilitys/hotel"
      },
+     {
+          id: 3,
+          imgg:"/images/bus_service.webp",
+          iclass:"fas fa-hotel",
+          title: "Bus services",
+          description: "Comfortable and budget-friendly bus service for city tours and outstation travel from Jaipur, ensuring timely and safe journeys.",
+          link: "fecilitys/bus"
+     }
      
      ]
   return (

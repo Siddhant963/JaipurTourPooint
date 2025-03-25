@@ -69,7 +69,7 @@ export default function Home({ data = [] }) {
                   />
                 </div>
                 <div className="bg-black bg-opacity-70 text-white text-center py-2 font-semibold">
-                  {car.name} - {car.capacity} Seater
+                  {car.name} - {car.capacity} 
                 </div>
               </div>
             ))}
@@ -87,8 +87,8 @@ export default function Home({ data = [] }) {
               />
             </div>
             <h2 className="text-xl font-semibold mt-3">{carData[currentIndex].name}</h2>
-            <p className="text-gray-700"><strong>Seats:</strong> {carData[currentIndex].capacity}</p>
-            <p className="text-sm text-gray-500 mt-2"><strong>Note*</strong>: Parking and Toll Charges are excluded for Taxi Service in Jaipur.</p>
+            <p className="text-gray-700"> {carData[currentIndex].capacity}</p>
+            <p className="text-sm text-gray-500 mt-2"> {carData[currentIndex].Note} </p>
 
             {/* Carousel Navigation */}
             <div className="flex justify-between mt-4">

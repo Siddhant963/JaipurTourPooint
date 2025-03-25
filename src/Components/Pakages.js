@@ -3,6 +3,18 @@ import React from 'react';
 const Pakages = () => {
   const pakedata = [
     {
+      id: 5,
+      img: "/images/hawa_mehel/img1.jpg",
+      name: "2 Days Tour Jaipur I (Special)",
+      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal",
+    },
+    {
+      id: 6,
+      img: "/images/Nahargarh_Fort/img2.jpg",
+      name: "2 Days Tour Jaipur II (Special)",
+      desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
+    },
+    {
       id: 1,
       img: "/images/Pushkar/img3.jpg",
       name: "5 Days Tour Package",
@@ -29,19 +41,7 @@ const Pakages = () => {
       name: "9 Days Tour Package",
       desc: "Jaipur, Bikaner, Jodhpur, Jaisalmer, Udaipur, Mount Abu, Chittorgarh, Ajmer, Pushkar, Ranthambore",
      
-    },
-    {
-      id: 5,
-      img: "/images/hawa_mehel/img1.jpg",
-      name: "2 Days Tour Jaipur I (Special)",
-      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal",
-    },
-    {
-      id: 6,
-      img: "/images/Nahargarh_Fort/img2.jpg",
-      name: "2 Days Tour Jaipur II (Special)",
-      desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
-    },
+    }
   ];
 
   return (

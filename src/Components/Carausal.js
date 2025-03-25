@@ -38,8 +38,8 @@ const Carausal = () => {
       </section>
 
       <div className="text-center  " style={{margin:'20px', textAlign:'center'}}>
-  <h2 className="text-2xl md:text-3xl m-5 text-gray-800 font-serif" style={{fontSize:"3.4rem",fontFamily:'serif' , fontWeight:'bold', marginTop:''}}>
-    Explore India with Trusted Travel Partners
+  <h2 className="text-2xl md:text-3xl m-5 text-gray-800 font-serif" style={{fontSize:"3.2rem",fontFamily:'serif' , fontWeight:'bold', marginTop:''}}>
+  🚗 India Awaits—Let’s Explore! 🌏 With <strong>jaiPurTourPoint</strong>
   </h2>
 
   <p className="font-bold text-2xl text-gray-900 mt-6" style={{fontSize:"2.4rem"}}>
