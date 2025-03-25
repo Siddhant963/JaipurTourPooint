@@ -10,7 +10,7 @@ const Footer = () => {
   <div className="box">
  
   <section className=" mb-10 ">
-  <img src="images/favicon.png" className="w-32 h-32   " />
+  <img src="./images/favicon.png" className="w-32 h-32   " />
             <h1
               className="text-3xl font-bold mb-6 underline text-white"
             >

@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* Logo */}
     
         <a href="/" className="text-3xl font-bold text-white flex items-center gap-2">
-        <img src="images/favicon.png" className="w-15 h-15" />
+        <img src="./images/favicon.png" className="w-15 h-15" />
           Jaipur<span className="text-yellow-500">TOur</span>Point
         </a>
 
