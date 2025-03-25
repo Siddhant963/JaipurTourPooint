@@ -15,6 +15,43 @@ const Pakages = () => {
       desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
     },
     {
+      id: 7,
+      img: "/images/Khatushyam/img2.jpeg",
+      name: "3 Days Tour Package I",
+      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal , Khatushyam , Salasar Balaji ",
+     
+    },
+    {
+      id: 8,
+      img: "/images/jantar_mantr/img2.jpg",
+      name: "3 Days Tour Package II",
+      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal , Ajmer , Pushkar ",
+     
+    },
+    {
+      id: 9,
+      img: "/images/Salasar_Balaji/img2.jpeg",
+      name: "3 Days Tour Package III",
+      desc: "Jaipur, Birla Mandir,Amber Fort, Albert Hall Museum, Hawa Mahal, Jantar Mantar,  Khatushyam , Salasar Balaji , Ajmer , Pushkar ",
+     
+    },
+    
+    {
+      id: 10,
+      img: "/images/Bhangarh/img2.jpeg",
+      name: "3 Days Tour Package IV",
+      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal ,Bhangarh (Bhuto ka bhangarh)  "
+     
+    },
+    {
+      id: 11,
+      img: "/images/Mathura/img2.jpeg",
+      name: "4 Days Tour Package ",
+      desc: "Jaipur, Birla Mandir, Albert Hall Museum, Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal, Jal Mahal , Agra , Mathura , Vrindavan ,Fatehpur Sikri , (Buland Darwaja) "
+     
+    },
+
+    {
       id: 1,
       img: "/images/Pushkar/img3.jpg",
       name: "5 Days Tour Package",
@@ -42,6 +79,7 @@ const Pakages = () => {
       desc: "Jaipur, Bikaner, Jodhpur, Jaisalmer, Udaipur, Mount Abu, Chittorgarh, Ajmer, Pushkar, Ranthambore",
      
     }
+    
   ];
 
   return (

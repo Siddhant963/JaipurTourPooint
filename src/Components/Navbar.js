@@ -35,7 +35,9 @@ const Navbar = () => {
         ></div>
 
         {/* Logo */}
-        <a href="/" className="text-3xl font-bold text-white">
+    
+        <a href="/" className="text-3xl font-bold text-white flex items-center gap-2">
+        <img src="images/favicon.png" className="w-15 h-15" />
           Jaipur<span className="text-yellow-500">TOur</span>Point
         </a>
 
@@ -79,11 +81,42 @@ const Navbar = () => {
                   2 Days Jaipur Special 2
                 </a>
                 <a
+                  href="/packages/7"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
+                >
+                  3 Days Package I
+                </a>
+                <a
+                  href="/packages/8"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
+                >
+                  3 Days Package II
+                </a>
+                <a
+                  href="/packages/9"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
+                >
+                  3 Days Package III
+                </a>
+                <a
+                  href="/packages/10"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
+                >
+                  3 Days Package IV
+                </a>
+                <a
+                  href="/packages/11"
+                  className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
+                >
+                  4 Days Package 
+                </a>
+                <a
                   href="/packages/1"
                   className="block px-3 py-2 md:px-5 md:py-3 hover:bg-gray-400 font-bold text-2xl "
                 >
                   5 Days Package
                 </a>
+
                 <a
                   href="/packages/2"
                   className="block px-3 py-2 md:px-4 md:py-3 hover:bg-gray-400 font-bold text-2xl"

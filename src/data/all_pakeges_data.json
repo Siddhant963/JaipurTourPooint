@@ -513,6 +513,570 @@
           ]
         }
       ]
+    },
+    {
+      "packageId": 7,
+      "packageName": "3 days Tour I",
+      "places": [
+        {
+          "id": 1,
+          "title": "Jaipur",
+          "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
+          "images": [
+            "/images/jaipur/img1.jpg",
+            "/images/jaipur/img2.jpg",
+            "/images/jaipur/img3.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Birla Mandir",
+          "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
+          "images": [
+            "/images/birla_mandir/img1.jpg",
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Albert Hall Museum",
+          "description": "Albert Hall Museum is the oldest museum in Rajasthan, built in 1876 to commemorate the visit of Prince Albert. Designed in Indo-Saracenic architecture, it houses a rich collection of artifacts, paintings, sculptures, and royal antiques. It is beautifully illuminated at night, making it a must-visit spot in Jaipur.",
+          "images": [
+            "/images/Albert_Hall_Museum/img1.jpg",
+            "/images/Albert_Hall_Museum/img2.jpg",
+            "/images/Albert_Hall_Museum/img3.jpg",
+            "/images/Albert_Hall_Museum/img4.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Hawa Mahal",
+          "description": "Hawa Mahal, the 'Palace of Winds,' was built in 1799 by Maharaja Sawai Pratap Singh. This five-story structure with 953 small windows (jharokhas) was designed to allow royal ladies to observe street festivities without being seen. The red and pink sandstone architecture is a symbol of Jaipur's royal heritage.",
+          "images": [
+            "/images/hawa_mehel/img1.jpg",
+            "/images/hawa_mehel/img2.jpg",
+            "/images/hawa_mehel/img3.jpg",
+            "/images/hawa_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Jantar Mantar",
+          "description": "Jantar Mantar, built by Maharaja Sawai Jai Singh II in 1734, is an astronomical observatory and a UNESCO World Heritage Site. It features the world’s largest stone sundial and various other instruments that help measure time, predict eclipses, and track celestial bodies. It is an engineering marvel of the 18th century.",
+          "images": [
+            "/images/jantar_mantr/img1.jpg",
+            "/images/jantar_mantr/img2.jpg",
+            "/images/jantar_mantr/img3.jpg",
+            "/images/jantar_mantr/img4.jpg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "City Palace",
+          "description": "City Palace, located in the heart of Jaipur, was built by Maharaja Sawai Jai Singh II in the 18th century. It is a blend of Mughal and Rajput architecture and houses museums, courtyards, gardens, and royal artifacts. The palace is still home to the Jaipur royal family and showcases Rajasthan's glorious past.",
+          "images": [
+            "/images/city_place/img1.jpeg",
+            "/images/city_place/img2.jpeg",
+            "/images/city_place/img3.jpeg"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Khazana Mahal",
+          "description": "Khazana Mahal is a hidden gem in Jaipur, known for its exquisite collection of royal treasures, antiques, and artifacts. It showcases rare gems, weapons, and textiles from the Rajput era. This museum offers a unique glimpse into Rajasthan’s rich history and heritage.",
+          "images": [
+            "/images/Khazana_Mahal/img1.jpeg",
+            "/images/Khazana_Mahal/img2.jpeg",
+            "/images/Khazana_Mahal/img3.jpeg"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Jal Mahal",
+          "description": "Jal Mahal, the 'Water Palace,' is an architectural wonder situated in the middle of Man Sagar Lake. Built in the 18th century by Maharaja Madho Singh I, it features Rajput and Mughal styles. The palace, partially submerged, creates a mesmerizing view, especially during sunrise and sunset.",
+          "images": [
+            "/images/jal_mehel/img1.jpg",
+            "/images/jal_mehel/img2.jpg",
+            "/images/jal_mehel/img3.jpg",
+            "/images/jal_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Khatushyam",
+          "description": "Khatushyam is a famous pilgrimage site dedicated to Lord Khatushyam, a form of Lord Krishna. Located in the Sikar district of Rajasthan, it attracts thousands of devotees who come to seek blessings. The temple is known for its serene ambiance and spiritual significance in Hindu mythology.",
+          "images": [
+            "/images/Khatushyam/img1.jpeg",
+            "/images/Khatushyam/img2.jpeg",
+            "/images/Khatushyam/img3.jpeg"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Salasar Balaji",
+          "description": "Salasar Balaji is a renowned temple dedicated to Lord Hanuman, located in the Churu district of Rajasthan. It is one of the most sacred Hanuman temples in India, attracting devotees from all over the country. The temple is known for its miraculous powers and vibrant religious festivals.",
+          "images": [
+            "/images/Salasar_Balaji/img1.jpeg",
+            "/images/Salasar_Balaji/img2.jpeg",
+            "/images/Salasar_Balaji/img3.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "packageId": 8,
+      "packageName": "3 days Tour II",
+      "places": [
+        {
+          "id": 1,
+          "title": "Jaipur",
+          "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
+          "images": [
+            "/images/jaipur/img1.jpg",
+            "/images/jaipur/img2.jpg",
+            "/images/jaipur/img3.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Birla Mandir",
+          "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
+          "images": [
+            "/images/birla_mandir/img1.jpg",
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Albert Hall Museum",
+          "description": "Albert Hall Museum is the oldest museum in Rajasthan, built in 1876 to commemorate the visit of Prince Albert. Designed in Indo-Saracenic architecture, it houses a rich collection of artifacts, paintings, sculptures, and royal antiques. It is beautifully illuminated at night, making it a must-visit spot in Jaipur.",
+          "images": [
+            "/images/Albert_Hall_Museum/img1.jpg",
+            "/images/Albert_Hall_Museum/img2.jpg",
+            "/images/Albert_Hall_Museum/img3.jpg",
+            "/images/Albert_Hall_Museum/img4.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Hawa Mahal",
+          "description": "Hawa Mahal, the 'Palace of Winds,' was built in 1799 by Maharaja Sawai Pratap Singh. This five-story structure with 953 small windows (jharokhas) was designed to allow royal ladies to observe street festivities without being seen. The red and pink sandstone architecture is a symbol of Jaipur's royal heritage.",
+          "images": [
+            "/images/hawa_mehel/img1.jpg",
+            "/images/hawa_mehel/img2.jpg",
+            "/images/hawa_mehel/img3.jpg",
+            "/images/hawa_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Jantar Mantar",
+          "description": "Jantar Mantar, built by Maharaja Sawai Jai Singh II in 1734, is an astronomical observatory and a UNESCO World Heritage Site. It features the world’s largest stone sundial and various other instruments that help measure time, predict eclipses, and track celestial bodies. It is an engineering marvel of the 18th century.",
+          "images": [
+            "/images/jantar_mantr/img1.jpg",
+            "/images/jantar_mantr/img2.jpg",
+            "/images/jantar_mantr/img3.jpg",
+            "/images/jantar_mantr/img4.jpg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "City Palace",
+          "description": "City Palace, located in the heart of Jaipur, was built by Maharaja Sawai Jai Singh II in the 18th century. It is a blend of Mughal and Rajput architecture and houses museums, courtyards, gardens, and royal artifacts. The palace is still home to the Jaipur royal family and showcases Rajasthan's glorious past.",
+          "images": [
+            "/images/city_place/img1.jpeg",
+            "/images/city_place/img2.jpeg",
+            "/images/city_place/img3.jpeg"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Khazana Mahal",
+          "description": "Khazana Mahal is a hidden gem in Jaipur, known for its exquisite collection of royal treasures, antiques, and artifacts. It showcases rare gems, weapons, and textiles from the Rajput era. This museum offers a unique glimpse into Rajasthan’s rich history and heritage.",
+          "images": [
+            "/images/Khazana_Mahal/img1.jpeg",
+            "/images/Khazana_Mahal/img2.jpeg",
+            "/images/Khazana_Mahal/img3.jpeg"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Jal Mahal",
+          "description": "Jal Mahal, the 'Water Palace,' is an architectural wonder situated in the middle of Man Sagar Lake. Built in the 18th century by Maharaja Madho Singh I, it features Rajput and Mughal styles. The palace, partially submerged, creates a mesmerizing view, especially during sunrise and sunset.",
+          "images": [
+            "/images/jal_mehel/img1.jpg",
+            "/images/jal_mehel/img2.jpg",
+            "/images/jal_mehel/img3.jpg",
+            "/images/jal_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Ajmer",
+          "description": "Ajmer is a historic city best known for the Ajmer Sharif Dargah, the tomb of Sufi saint Khwaja Moinuddin Chishti, which attracts devotees from all religions. It was founded in the 7th century by Raja Ajaypal Chauhan and later became an important center for Mughal rulers. The city is also home to Ana Sagar Lake, Taragarh Fort, and the famous Mayo College. Ajmer serves as a gateway to the sacred town of Pushkar, just a few kilometers away.",
+          "images": [
+            "/images/Ajmer/img1.jpg",
+            "/images/Ajmer/img2.jpg",
+            "/images/Ajmer/img3.jpg",
+            "/images/Ajmer/img4.jpg"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Pushkar",
+          "description": "Pushkar is one of the oldest cities in India, famous for its sacred Pushkar Lake and the world’s only dedicated Brahma Temple. The town hosts the grand Pushkar Camel Fair, one of the largest livestock fairs in the world. Pilgrims and tourists visit for spiritual experiences, cultural festivals, and vibrant markets. With over 500 temples and ghats, Pushkar is a blend of spirituality, history, and scenic beauty, making it a must-visit destination in Rajasthan.",
+          "images": [
+            "/images/Pushkar/img1.jpg",
+            "/images/Pushkar/img2.jpg",
+            "/images/Pushkar/img3.jpg",
+            "/images/Pushkar/img4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "packageId": 9,
+      "packageName": "3 days Tour III",
+      "places": [
+        {
+          "id": 1,
+          "title": "Jaipur",
+          "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
+          "images": [
+            "/images/jaipur/img1.jpg",
+            "/images/jaipur/img2.jpg",
+            "/images/jaipur/img3.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Amber Fort",
+          "description": "Amber Fort, built in 1592 by Raja Man Singh I, is one of Rajasthan’s most stunning forts. It features a blend of Rajput and Mughal architecture, with stunning courtyards, intricate mirror work in the Sheesh Mahal, and the magnificent Ganesh Pol. The fort overlooks Maota Lake and is known for its elephant rides and light and sound show.",
+          "images": [
+            "/images/Amber_Fort/img1.jpg",
+            "/images/Amber_Fort/img2.jpg",
+            "/images/Amber_Fort/img3.jpg",
+            "/images/Amber_Fort/img4.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Hawa Mahal",
+          "description": "Hawa Mahal, the 'Palace of Winds,' was built in 1799 by Maharaja Sawai Pratap Singh. This five-story structure with 953 small windows (jharokhas) was designed to allow royal ladies to observe street festivities without being seen. The red and pink sandstone architecture is a symbol of Jaipur's royal heritage.",
+          "images": [
+            "/images/hawa_mehel/img1.jpg",
+            "/images/hawa_mehel/img2.jpg",
+            "/images/hawa_mehel/img3.jpg",
+            "/images/hawa_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Birla Mandir",
+          "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
+          "images": [
+            "/images/birla_mandir/img1.jpg",
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Albert Hall Museum",
+          "description": "Albert Hall Museum is the oldest museum in Rajasthan, built in 1876 to commemorate the visit of Prince Albert. Designed in Indo-Saracenic architecture, it houses a rich collection of artifacts, paintings, sculptures, and royal antiques. It is beautifully illuminated at night, making it a must-visit spot in Jaipur.",
+          "images": [
+            "/images/Albert_Hall_Museum/img1.jpg",
+            "/images/Albert_Hall_Museum/img2.jpg",
+            "/images/Albert_Hall_Museum/img3.jpg",
+            "/images/Albert_Hall_Museum/img4.jpg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Jantar Mantar",
+          "description": "Jantar Mantar, built by Maharaja Sawai Jai Singh II in 1734, is an astronomical observatory and a UNESCO World Heritage Site. It features the world’s largest stone sundial and various other instruments that help measure time, predict eclipses, and track celestial bodies. It is an engineering marvel of the 18th century.",
+          "images": [
+            "/images/jantar_mantr/img1.jpg",
+            "/images/jantar_mantr/img2.jpg",
+            "/images/jantar_mantr/img3.jpg",
+            "/images/jantar_mantr/img4.jpg"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Khatushyam",
+          "description": "Khatushyam is a famous pilgrimage site dedicated to Lord Khatushyam, a form of Lord Krishna. Located in the Sikar district of Rajasthan, it attracts thousands of devotees who come to seek blessings. The temple is known for its serene ambiance and spiritual significance in Hindu mythology.",
+          "images": [
+            "/images/Khatushyam/img1.jpeg",
+            "/images/Khatushyam/img2.jpeg",
+            "/images/Khatushyam/img3.jpeg"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Salasar Balaji",
+          "description": "Salasar Balaji is a renowned temple dedicated to Lord Hanuman, located in the Churu district of Rajasthan. It is one of the most sacred Hanuman temples in India, attracting devotees from all over the country. The temple is known for its miraculous powers and vibrant religious festivals.",
+          "images": [
+            "/images/Salasar_Balaji/img1.jpeg",
+            "/images/Salasar_Balaji/img2.jpeg",
+            "/images/Salasar_Balaji/img3.jpeg"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Ajmer",
+          "description": "Ajmer is a historic city best known for the Ajmer Sharif Dargah, the tomb of Sufi saint Khwaja Moinuddin Chishti, which attracts devotees from all religions. It was founded in the 7th century by Raja Ajaypal Chauhan and later became an important center for Mughal rulers. The city is also home to Ana Sagar Lake, Taragarh Fort, and the famous Mayo College. Ajmer serves as a gateway to the sacred town of Pushkar, just a few kilometers away.",
+          "images": [
+            "/images/Ajmer/img1.jpg",
+            "/images/Ajmer/img2.jpg",
+            "/images/Ajmer/img3.jpg",
+            "/images/Ajmer/img4.jpg"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Pushkar",
+          "description": "Pushkar is one of the oldest cities in India, famous for its sacred Pushkar Lake and the world’s only dedicated Brahma Temple. The town hosts the grand Pushkar Camel Fair, one of the largest livestock fairs in the world. Pilgrims and tourists visit for spiritual experiences, cultural festivals, and vibrant markets. With over 500 temples and ghats, Pushkar is a blend of spirituality, history, and scenic beauty, making it a must-visit destination in Rajasthan.",
+          "images": [
+            "/images/Pushkar/img1.jpg",
+            "/images/Pushkar/img2.jpg",
+            "/images/Pushkar/img3.jpg",
+            "/images/Pushkar/img4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "packageId": 10,
+      "packageName": "3 days Tour IV",
+      "places": [
+        {
+          "id": 1,
+          "title": "Jaipur",
+          "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
+          "images": [
+            "/images/jaipur/img1.jpg",
+            "/images/jaipur/img2.jpg",
+            "/images/jaipur/img3.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Birla Mandir",
+          "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
+          "images": [
+            "/images/birla_mandir/img1.jpg",
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Albert Hall Museum",
+          "description": "Albert Hall Museum is the oldest museum in Rajasthan, built in 1876 to commemorate the visit of Prince Albert. Designed in Indo-Saracenic architecture, it houses a rich collection of artifacts, paintings, sculptures, and royal antiques. It is beautifully illuminated at night, making it a must-visit spot in Jaipur.",
+          "images": [
+            "/images/Albert_Hall_Museum/img1.jpg",
+            "/images/Albert_Hall_Museum/img2.jpg",
+            "/images/Albert_Hall_Museum/img3.jpg",
+            "/images/Albert_Hall_Museum/img4.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Hawa Mahal",
+          "description": "Hawa Mahal, the 'Palace of Winds,' was built in 1799 by Maharaja Sawai Pratap Singh. This five-story structure with 953 small windows (jharokhas) was designed to allow royal ladies to observe street festivities without being seen. The red and pink sandstone architecture is a symbol of Jaipur's royal heritage.",
+          "images": [
+            "/images/hawa_mehel/img1.jpg",
+            "/images/hawa_mehel/img2.jpg",
+            "/images/hawa_mehel/img3.jpg",
+            "/images/hawa_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Jantar Mantar",
+          "description": "Jantar Mantar, built by Maharaja Sawai Jai Singh II in 1734, is an astronomical observatory and a UNESCO World Heritage Site. It features the world’s largest stone sundial and various other instruments that help measure time, predict eclipses, and track celestial bodies. It is an engineering marvel of the 18th century.",
+          "images": [
+            "/images/jantar_mantr/img1.jpg",
+            "/images/jantar_mantr/img2.jpg",
+            "/images/jantar_mantr/img3.jpg",
+            "/images/jantar_mantr/img4.jpg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "City Palace",
+          "description": "City Palace, located in the heart of Jaipur, was built by Maharaja Sawai Jai Singh II in the 18th century. It is a blend of Mughal and Rajput architecture and houses museums, courtyards, gardens, and royal artifacts. The palace is still home to the Jaipur royal family and showcases Rajasthan's glorious past.",
+          "images": [
+            "/images/city_place/img1.jpeg",
+            "/images/city_place/img2.jpeg",
+            "/images/city_place/img3.jpeg"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Khazana Mahal",
+          "description": "Khazana Mahal is a hidden gem in Jaipur, known for its exquisite collection of royal treasures, antiques, and artifacts. It showcases rare gems, weapons, and textiles from the Rajput era. This museum offers a unique glimpse into Rajasthan’s rich history and heritage.",
+          "images": [
+            "/images/Khazana_Mahal/img1.jpeg",
+            "/images/Khazana_Mahal/img2.jpeg",
+            "/images/Khazana_Mahal/img3.jpeg"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Jal Mahal",
+          "description": "Jal Mahal, the 'Water Palace,' is an architectural wonder situated in the middle of Man Sagar Lake. Built in the 18th century by Maharaja Madho Singh I, it features Rajput and Mughal styles. The palace, partially submerged, creates a mesmerizing view, especially during sunrise and sunset.",
+          "images": [
+            "/images/jal_mehel/img1.jpg",
+            "/images/jal_mehel/img2.jpg",
+            "/images/jal_mehel/img3.jpg",
+            "/images/jal_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Bhuto ka Bhangarh",
+          "description": "Bhuto ka Bhangarh, commonly known as Bhangarh Fort, is one of India's most haunted places. Located in the Alwar district of Rajasthan, it is famous for its eerie ambiance and legends of curses. The Archaeological Survey of India prohibits visitors after sunset due to its spooky reputation. The fort's ruins and scenic surroundings attract history buffs and thrill-seekers alike.",
+          "images": [
+            "/images/Bhangarh/img1.jpeg",
+            "/images/Bhangarh/img2.jpeg",
+            "/images/Bhangarh/img3.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "packageId": 11,
+      "packageName": "4 days Tour",
+      "places": [
+        {
+          "id": 1,
+          "title": "Jaipur",
+          "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
+          "images": [
+            "/images/jaipur/img1.jpg",
+            "/images/jaipur/img2.jpg",
+            "/images/jaipur/img3.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Birla Mandir",
+          "description": "Birla Mandir, also known as Laxmi Narayan Temple, is a beautiful white marble temple dedicated to Lord Vishnu and Goddess Lakshmi. Built by the Birla family in 1988, it showcases intricate carvings, stunning architecture, and serene surroundings. The temple is a spiritual and architectural marvel in Jaipur.",
+          "images": [
+            "/images/birla_mandir/img1.jpg",
+            "/images/birla_mandir/img2.jpeg",
+            "/images/birla_mandir/img3.jpeg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Albert Hall Museum",
+          "description": "Albert Hall Museum is the oldest museum in Rajasthan, built in 1876 to commemorate the visit of Prince Albert. Designed in Indo-Saracenic architecture, it houses a rich collection of artifacts, paintings, sculptures, and royal antiques. It is beautifully illuminated at night, making it a must-visit spot in Jaipur.",
+          "images": [
+            "/images/Albert_Hall_Museum/img1.jpg",
+            "/images/Albert_Hall_Museum/img2.jpg",
+            "/images/Albert_Hall_Museum/img3.jpg",
+            "/images/Albert_Hall_Museum/img4.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Hawa Mahal",
+          "description": "Hawa Mahal, the 'Palace of Winds,' was built in 1799 by Maharaja Sawai Pratap Singh. This five-story structure with 953 small windows (jharokhas) was designed to allow royal ladies to observe street festivities without being seen. The red and pink sandstone architecture is a symbol of Jaipur's royal heritage.",
+          "images": [
+            "/images/hawa_mehel/img1.jpg",
+            "/images/hawa_mehel/img2.jpg",
+            "/images/hawa_mehel/img3.jpg",
+            "/images/hawa_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Jantar Mantar",
+          "description": "Jantar Mantar, built by Maharaja Sawai Jai Singh II in 1734, is an astronomical observatory and a UNESCO World Heritage Site. It features the world’s largest stone sundial and various other instruments that help measure time, predict eclipses, and track celestial bodies. It is an engineering marvel of the 18th century.",
+          "images": [
+            "/images/jantar_mantr/img1.jpg",
+            "/images/jantar_mantr/img2.jpg",
+            "/images/jantar_mantr/img3.jpg",
+            "/images/jantar_mantr/img4.jpg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "City Palace",
+          "description": "City Palace, located in the heart of Jaipur, was built by Maharaja Sawai Jai Singh II in the 18th century. It is a blend of Mughal and Rajput architecture and houses museums, courtyards, gardens, and royal artifacts. The palace is still home to the Jaipur royal family and showcases Rajasthan's glorious past.",
+          "images": [
+            "/images/city_place/img1.jpeg",
+            "/images/city_place/img2.jpeg",
+            "/images/city_place/img3.jpeg"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Khazana Mahal",
+          "description": "Khazana Mahal is a hidden gem in Jaipur, known for its exquisite collection of royal treasures, antiques, and artifacts. It showcases rare gems, weapons, and textiles from the Rajput era. This museum offers a unique glimpse into Rajasthan’s rich history and heritage.",
+          "images": [
+            "/images/Khazana_Mahal/img1.jpeg",
+            "/images/Khazana_Mahal/img2.jpeg",
+            "/images/Khazana_Mahal/img3.jpeg"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Jal Mahal",
+          "description": "Jal Mahal, the 'Water Palace,' is an architectural wonder situated in the middle of Man Sagar Lake. Built in the 18th century by Maharaja Madho Singh I, it features Rajput and Mughal styles. The palace, partially submerged, creates a mesmerizing view, especially during sunrise and sunset.",
+          "images": [
+            "/images/jal_mehel/img1.jpg",
+            "/images/jal_mehel/img2.jpg",
+            "/images/jal_mehel/img3.jpg",
+            "/images/jal_mehel/img4.jpg"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Agra",
+          "description": "Agra is home to the iconic Taj Mahal, one of the Seven Wonders of the World. Built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal, it is a UNESCO World Heritage Site. Agra also boasts Agra Fort and Fatehpur Sikri, showcasing the grandeur of Mughal architecture and history.",
+          "images": [
+            "/images/Agra/img1.jpeg",
+            "/images/Agra/img2.jpeg",
+            "/images/Agra/img3.jpeg"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Mathura",
+          "description": "Mathura is the birthplace of Lord Krishna and a major pilgrimage site for Hindus. It is dotted with temples, including the famous Krishna Janmabhoomi Temple. The city's vibrant culture, religious festivals, and association with Krishna's childhood make it a spiritually significant destination.",
+          "images": [
+            "/images/Mathura/img1.jpeg",
+            "/images/Mathura/img2.jpeg",
+            "/images/Mathura/img3.jpeg"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Vrindavan",
+          "description": "Vrindavan is a sacred town associated with Lord Krishna's childhood and youth. It is home to numerous temples, including the Banke Bihari Temple and ISKCON Temple. The town's spiritual ambiance, devotional songs, and colorful Holi celebrations attract devotees and tourists from around the world.",
+          "images": [
+            "/images/Vrindavan/img1.jpeg",
+            "/images/Vrindavan/img2.jpg",
+            "/images/Vrindavan/img3.jpeg"
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Fatehpur Sikri",
+          "description": "Fatehpur Sikri, a UNESCO World Heritage Site, was the short-lived capital of the Mughal Empire under Akbar. The city is known for its stunning red sandstone architecture, including Buland Darwaza (the tallest gateway in the world), Jama Masjid, and the Tomb of Salim Chishti. It is a masterpiece of Mughal urban planning.",
+          "images": [
+            "/images/Fatehpur_Sikri/img1.jpeg",
+            "/images/Fatehpur_Sikri/img2.jpeg",
+            "/images/Fatehpur_Sikri/img3.jpeg"
+          ]
+        }
+      ]
     }
   ]
 }

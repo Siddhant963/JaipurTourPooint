@@ -8,9 +8,11 @@ const Footer = () => {
 <div className="box-container ">
 
   <div className="box">
-  <section className="text-center mb-10  ">
+ 
+  <section className=" mb-10 ">
+  <img src="images/favicon.png" className="w-32 h-32   " />
             <h1
-              className="text-3xl font-bold mb-4 underline text-white"
+              className="text-3xl font-bold mb-6 underline text-white"
             >
               Welcome to JaipurTourPoint.com
             </h1>
@@ -19,6 +21,7 @@ const Footer = () => {
               <span className="font-semibold">JaipurTourPoint.com</span>! Discover majestic forts, vibrant bazaars, and rich Rajasthani culture with our expertly curated tours. {" "}
               <span className="text-yellow-500 font-bold">Padharo Mharo Des!</span>
             </p>
+            <p> ADDRESS :- HOTEL KARTIKEY, KABIR MARG, NEAR RAILWAY STATION, JAIPUR</p>
           </section>
 
   </div>
@@ -53,6 +56,7 @@ const Footer = () => {
               >
                 Chat on WhatsApp
               </a>
+              <a href="mailto:rohitmishra365@gmail.com" target="_blank on hover" className="text-blue-600 hover:underline text-2xl text-white  " data-rel="external" style={{marginLeft:"5px",borderRadius:"20px", display:"flex"}}> Gmail...</a>
    
   </div>
   
