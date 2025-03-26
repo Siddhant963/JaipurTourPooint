@@ -1,8 +1,8 @@
 import Busservicepage from "@/Components/Busservicepage";
 import serviceData from "../../../data/all_services.json";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
 import Carrental from "@/Components/Carrental";
+import Dnavbar from "@/Components/Dnavbar";
+import Dfooter from "@/Components/Dfooter";
 
 const page = async ({params}) => {
     const {service} = await params;
@@ -10,10 +10,10 @@ const page = async ({params}) => {
    
   return (
     <div>
-     <Navbar/>
+     <Dnavbar/>
       {/* <Busservicepage data={data} /> */}
       <Carrental data={data} />
-      <Footer/>
+      <Dfooter/>
     </div>
   )
 }
