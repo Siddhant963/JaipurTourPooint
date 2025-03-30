@@ -5,11 +5,13 @@ import Head from "next/head";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: 'swap',
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: 'swap',
 });
 
 export const metadata = {
@@ -31,9 +33,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="favicon.ico" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} suppressHydrationWarning`}>
         <Head>
           <title></title>
           <meta name="description" content="Explore Jaipur with Jaipur Tour Point! Best tour packages..." />
