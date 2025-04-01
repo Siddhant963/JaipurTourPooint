@@ -53,8 +53,8 @@ const Gallery = () => {
           {
                id: 10,
                img: "/images/Gulab_bagh/img1.jpg",
-               title: "Gulab Bagh",
-               description: "Gulab Bagh, also known as Sajjan Niwas Garden, is the largest garden in Udaipur, built by Maharana Sajjan Singh in the 19th century."
+               title: "Gulab Garh",
+               description: "Gulab Garh is a historical and cultural site known for its heritage significance and architectural beauty. It is often associated with royal Rajasthani culture and serves as a gateway to understanding the traditions of the region."
           },
           {
                id: 9,
@@ -65,8 +65,8 @@ const Gallery = () => {
           {
                id: 11,
                img: "/images/Chulgiri/img1.jpg",
-               title: "Chulgiri ",
-               description: "Chulgiri Jain Temple is a sacred pilgrimage site located atop a hill in Jaipur. Built in the 1950s, this Digambara Jain temple is dedicated to Lord Parshvanath"
+               title: "Chokhi Dhani ",
+               description: "Chokhi Dhani is a well-known ethnic village resort in Jaipur, Rajasthan, founded in 1990 by Gul Vaswani and Subhash Vaswani. It was created to preserve and promote Rajasthani heritage through folk dances, puppet shows"
           },
           {
                id: 12,
@@ -82,7 +82,7 @@ const Gallery = () => {
           },
           {
                id: 14,
-               img: "/images/Jaigarh_Fort/img1.jpg",
+               img: "/images/Jaigarh_Fort/img2.jpg",
                title: "Jaigarh Fort ",
                description: "Jaigarh Fort, built by Maharaja Jai Singh II in 1726, is known as the 'Victory Fort' and is home to the world’s largest cannon on wheels, Jaivana."
           },

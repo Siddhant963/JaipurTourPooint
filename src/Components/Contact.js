@@ -49,7 +49,7 @@ const Contact = () => {
           </p>
           <p className="text-lg text-gray-600 font-bold md:text-lg" style={{marginBottom:"10px"}}>
           Business Hours:
-          🕘 Monday – Sunday: 9:00 AM – 8:00 PM
+          🕘 Monday – Sunday: 24*7 
           </p>
 
           <div className="space-y-5 text-base md:text-lg ">
