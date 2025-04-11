@@ -12,7 +12,7 @@ const Pakages = () => {
       id: 6,
       img: "/images/Nahargarh_Fort/img2.jpg",
       name: "2 Days Tour Jaipur II (Special)",
-      desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chulgiri, Gulab Bagh",
+      desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort, Panna Meena Ka Kund, Chokhi Dhani, Gulab Garh",
     },
     {
       id: 7,

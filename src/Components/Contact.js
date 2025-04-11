@@ -77,6 +77,17 @@ const Contact = () => {
               </a>
             </div>
 
+            <div className="flex items-center space-x-4 " style={{marginBottom:"15px"}}>
+              <a
+                href="mailto:jaipurtourpoint@gmail.com"
+                className="text-blue-600 hover:underline text-2xl btn text-white "
+                style={{marginLeft:"5px",borderRadius:"20px", display:"flex"}}
+              >              <Mail className="text-red-500 w-7 h-7 md:w-8 md:h-8 text-white " style={{marginRight:"10px"}} />
+
+jaipurtourpoint@gmail.com
+              </a>
+            </div>
+
             <div className="flex items-center space-x-4">
               <a
                 href="tel:+918209479644"
