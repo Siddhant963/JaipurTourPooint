@@ -1,0 +1,14 @@
+
+export default async function sitemap() {
+  return [
+    {
+      url: 'https://jaipurtourpoint.com',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://jaipurtourpoint.com/tours',
+      lastModified: new Date(),
+    },
+    // Add all important pages
+  ]
+}

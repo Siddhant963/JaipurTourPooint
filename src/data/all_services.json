@@ -1,0 +1,84 @@
+{
+     "bus":[
+          {     "id":1,
+               "name":"Min Bus",
+               "capacity":"12 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Bus/bus_12.jpeg"
+          },
+          {    "id":2,
+               "name":" 17 Seater Bus",
+               "capacity":"17 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Bus/bus_17.jpeg"
+          },
+          {   "id":3,
+               "name":"26 Seater Bus",
+               "capacity":"26 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Bus/bus_26.jpeg"
+          }
+
+     ],
+     "cars":[
+          {   "id":1,
+               "name":"Innova",
+               "capacity":"7 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/innova.jpeg"
+          },
+          {   "id":2,
+               "name":"Innova_Crysta",
+               "capacity":"7 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/innova_crysta.jpeg"
+          },
+          {   "id":3,
+               "name":"Ertiga",
+               "capacity":"7 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/ertiga.jpeg"
+          },
+          {   "id":4,
+               "name":"Etios",
+               "capacity":"5 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/etios.jpeg"
+          },
+          {   "id":5,
+               "name":"D'zair",
+               "capacity":"5 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/dzair.jpeg"
+          },
+          {   "id":6,
+               "name":"Tavera",
+               "capacity":"7 Seater",
+               "Note" : "Parking and Toll Charges are excluded for Taxi Service in Jaipur.",
+               "img":"/images/Cars/tavera.jpeg"
+          }
+
+     ],
+     "hotel":[
+          {   "id":1,
+             "name":"normal hotels",
+               "capacity":"",
+               "Note" : "recomended best stay hotels  Service in Jaipur.",
+               "img":"/images/hotel1.jpeg"  
+          },
+          {   "id":2,
+             "name":"2 star hotel",
+               "capacity":"",
+               "Note" : "recomended best stay hotels  Service in Jaipur.",
+               "img":"/images/hotel2.jpeg"  
+          },
+          {   "id":3,
+             "name":"3 star hotel",
+               "capacity":"",
+               "Note" : "recomended best stay hotels  Service in Jaipur.",
+               "img":"/images/hotel3.jpeg"  
+          }
+
+     ]
+
+}
