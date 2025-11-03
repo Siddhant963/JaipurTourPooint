@@ -5,8 +5,7 @@ import "../styles/navbar-simple.css";
 
 const Dnavbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isPackagesOpen, setIsPackagesOpen] = useState(false);
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
   const [scrolled, setScrolled] = useState(false);
   const [hoverTimeout, setHoverTimeout] = useState(null);
 
@@ -14,48 +13,36 @@ const Dnavbar = () => {
     setIsNavOpen(!isNavOpen);
   };
 
-  const togglePackages = () => {
-    setIsPackagesOpen(!isPackagesOpen);
-  };
-
-  const toggleServices = () => {
-    setIsServicesOpen(!isServicesOpen);
+  const toggleDropdown = (menu) => {
+    setActiveDropdown(activeDropdown === menu ? null : menu);
   };
 
   const closeNav = () => {
     setIsNavOpen(false);
-    setIsPackagesOpen(false);
-    setIsServicesOpen(false);
+    setActiveDropdown(null);
   };
 
-  const handlePackagesMouseEnter = () => {
+  const handleDropdownMouseEnter = (menu) => {
     if (window.innerWidth >= 768) {
-      if (hoverTimeout) clearTimeout(hoverTimeout);
-      setIsPackagesOpen(true);
+      // Clear any existing timeout
+      if (hoverTimeout) {
+        clearTimeout(hoverTimeout);
+        setHoverTimeout(null);
+      }
+      // Only set if it's different from current
+      if (activeDropdown !== menu) {
+        setActiveDropdown(menu);
+      }
     }
   };
 
-  const handlePackagesMouseLeave = () => {
+  const handleDropdownMouseLeave = (menu) => {
     if (window.innerWidth >= 768) {
+      // Set timeout to close this specific dropdown
       const timeout = setTimeout(() => {
-        setIsPackagesOpen(false);
-      }, 150);
-      setHoverTimeout(timeout);
-    }
-  };
-
-  const handleServicesMouseEnter = () => {
-    if (window.innerWidth >= 768) {
-      if (hoverTimeout) clearTimeout(hoverTimeout);
-      setIsServicesOpen(true);
-    }
-  };
-
-  const handleServicesMouseLeave = () => {
-    if (window.innerWidth >= 768) {
-      const timeout = setTimeout(() => {
-        setIsServicesOpen(false);
-      }, 150);
+        // Only close if this dropdown is still the active one
+        setActiveDropdown(current => current === menu ? null : current);
+      }, 200);
       setHoverTimeout(timeout);
     }
   };
@@ -125,18 +112,18 @@ const Dnavbar = () => {
             {/* Packages Dropdown */}
             <div
               className="dnavbar-dropdown"
-              onMouseEnter={handlePackagesMouseEnter}
-              onMouseLeave={handlePackagesMouseLeave}
+              onMouseEnter={() => handleDropdownMouseEnter("packages")}
+              onMouseLeave={() => handleDropdownMouseLeave("packages")}
             >
               <button
                 className="dnavbar-dropdown-btn"
-                onClick={togglePackages}
+                onClick={() => toggleDropdown("packages")}
               >
                 Packages
-                <i className={`fas fa-chevron-down navbar-dropdown-icon ${isPackagesOpen ? "rotated" : ""}`}></i>
+                <i className={`fas fa-chevron-down navbar-dropdown-icon ${activeDropdown === "packages" ? "rotated" : ""}`}></i>
               </button>
 
-              <div className={`dnavbar-dropdown-menu ${isPackagesOpen ? "open" : "closed"}`}>
+              <div className={`dnavbar-dropdown-menu ${activeDropdown === "packages" ? "open" : "closed"}`}>
                 <div className="navbar-dropdown-scroll-hidden">
                   {[
                     { name: "2 Days Jaipur Special 1", id: 5 },
@@ -167,18 +154,18 @@ const Dnavbar = () => {
             {/* Services Dropdown */}
             <div
               className="dnavbar-dropdown"
-              onMouseEnter={handleServicesMouseEnter}
-              onMouseLeave={handleServicesMouseLeave}
+              onMouseEnter={() => handleDropdownMouseEnter("services")}
+              onMouseLeave={() => handleDropdownMouseLeave("services")}
             >
               <button
                 className="dnavbar-dropdown-btn"
-                onClick={toggleServices}
+                onClick={() => toggleDropdown("services")}
               >
                 Services
-                <i className={`fas fa-chevron-down navbar-dropdown-icon ${isServicesOpen ? "rotated" : ""}`}></i>
+                <i className={`fas fa-chevron-down navbar-dropdown-icon ${activeDropdown === "services" ? "rotated" : ""}`}></i>
               </button>
 
-              <div className={`dnavbar-dropdown-menu ${isServicesOpen ? "open" : "closed"}`}>
+              <div className={`dnavbar-dropdown-menu ${activeDropdown === "services" ? "open" : "closed"}`}>
                 <div className="navbar-dropdown-scroll-hidden">
                   {[
                     { name: "Cab Service", link: "/fecilitys/cars", icon: "fa-car" },

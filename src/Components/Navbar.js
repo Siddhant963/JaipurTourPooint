@@ -20,18 +20,27 @@ const Navbar = () => {
     setOpenDropdown(null);
   };
 
-  const handleMouseEnter = (menu) => {
+  const handleDropdownMouseEnter = (menu) => {
     if (window.innerWidth >= 768) {
-      if (hoverTimeout) clearTimeout(hoverTimeout);
-      setOpenDropdown(menu);
+      // Clear any existing timeout
+      if (hoverTimeout) {
+        clearTimeout(hoverTimeout);
+        setHoverTimeout(null);
+      }
+      // Only set if it's different from current
+      if (openDropdown !== menu) {
+        setOpenDropdown(menu);
+      }
     }
   };
 
-  const handleMouseLeave = () => {
+  const handleDropdownMouseLeave = (menu) => {
     if (window.innerWidth >= 768) {
+      // Set timeout to close this specific dropdown
       const timeout = setTimeout(() => {
-        setOpenDropdown(null);
-      }, 150);
+        // Only close if this dropdown is still the active one
+        setOpenDropdown(current => current === menu ? null : current);
+      }, 200);
       setHoverTimeout(timeout);
     }
   };
@@ -102,8 +111,8 @@ const Navbar = () => {
             {/* Packages Dropdown */}
             <li
               className="navbar-nav-item"
-              onMouseEnter={() => handleMouseEnter("packages")}
-              onMouseLeave={handleMouseLeave}
+              onMouseEnter={() => handleDropdownMouseEnter("packages")}
+              onMouseLeave={() => handleDropdownMouseLeave("packages")}
             >
               <button
                 className="navbar-dropdown-btn"
@@ -144,8 +153,8 @@ const Navbar = () => {
             {/* Services Dropdown */}
             <li
               className="navbar-nav-item"
-              onMouseEnter={() => handleMouseEnter("services")}
-              onMouseLeave={handleMouseLeave}
+              onMouseEnter={() => handleDropdownMouseEnter("services")}
+              onMouseLeave={() => handleDropdownMouseLeave("services")}
             >
               <button
                 className="navbar-dropdown-btn"
