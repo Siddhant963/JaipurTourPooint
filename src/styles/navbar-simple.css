@@ -683,3 +683,86 @@ vices Section Styles */
     display: none;
     /* WebKit */
 }
+
+/* Enh
+anced dropdown isolation */
+.navbar-nav-item {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav-item:hover {
+    z-index: 10;
+}
+
+.navbar-dropdown-menu {
+    z-index: 100;
+}
+
+.dnavbar-dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dnavbar-dropdown:hover {
+    z-index: 10;
+}
+
+.dnavbar-dropdown-menu {
+    z-index: 100;
+}
+
+/* Prevent dropdown overlap */
+@media (min-width: 768px) {
+    .navbar-nav-item .navbar-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .dnavbar-dropdown .dnavbar-dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+
+/* Smooth dropdown transitions */
+.navbar-dropdown-menu,
+.dnavbar-dropdown-menu {
+    transition: opacity 0.2s ease, max-height 0.2s ease, transform 0.2s ease;
+}
+
+.navbar-dropdown-menu.open,
+.dnavbar-dropdown-menu.open {
+    animation: dropdownFadeIn 0.2s ease forwards;
+}
+
+.navbar-dropdown-menu.closed,
+.dnavbar-dropdown-menu.closed {
+    animation: dropdownFadeOut 0.2s ease forwards;
+}
+
+@keyframes dropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes dropdownFadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+}
